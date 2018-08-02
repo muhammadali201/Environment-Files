@@ -1,0 +1,17 @@
+[user]
+	name = Muhammad Ali Akhtar
+	email = muhammadali201@gmail.com
+[core]
+	autocrlf = false
+	safecrlf = false
+
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+[credential]
+	helper = cache --timeout=3600

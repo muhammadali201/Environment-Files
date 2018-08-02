@@ -1,0 +1,7 @@
+*.h text=auto
+*.c text=auto
+*.cpp test=auto
+*.txt text=auto
+*.v text=auto
+*.py text=auto
+
