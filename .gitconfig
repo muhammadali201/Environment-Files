@@ -4,6 +4,7 @@
 [core]
 	autocrlf = false
 	safecrlf = false
+	filemode = false
 
 [alias]
     co = checkout
