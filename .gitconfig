@@ -1,10 +1,9 @@
 [user]
 	name = Muhammad Ali Akhtar
-	email = muhammadali201@gmail.com
+	email = muhammadakhtar@intensivate.com
 [core]
 	autocrlf = false
 	safecrlf = false
-	filemode = false
 
 [alias]
     co = checkout
@@ -16,3 +15,5 @@
     dump = cat-file -p
 [credential]
 	helper = cache --timeout=3600
+[url "https://"]
+	insteadOf = git://
